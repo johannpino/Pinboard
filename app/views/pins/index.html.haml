@@ -1,0 +1,6 @@
+%h1 Bienvenido Pinboard
+
+= link_to "new", new_pin_path
+
+- @pins.each do |pin|
+  %h2= link_to pin.title, pin
