@@ -14,6 +14,7 @@ gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise'
 gem "paperclip", "~> 5.0.0.beta1"
+gem 'masonry-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
